@@ -6,13 +6,13 @@
 #include <stdexcept>
 #include <vector>
 
-#include "cache.h"
-#include "cacheconfig.h"
-#include "cachepolicy.h"
-#include "cachesimulator.h"
-#include "counter.h"
-#include "memory.h"
-#include "utils.h"
+#include "../include/cache.h"
+#include "../include/cacheconfig.h"
+#include "../include/cachepolicy.h"
+#include "../include/cachesimulator.h"
+#include "../include/counter.h"
+#include "../include/memory.h"
+#include "../include/utils.h"
 
 using namespace std;
 

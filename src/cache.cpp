@@ -1,7 +1,7 @@
 #include <cassert>
 
-#include "cache.h"
-#include "cacheblock.h"
+#include "../include/cache.h"
+#include "../include/cacheblock.h"
 
 Cache::~Cache() {
   for (auto block : _blocks) {

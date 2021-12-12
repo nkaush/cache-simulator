@@ -1,5 +1,5 @@
-#include "cacheconfig.h"
-#include "utils.h"
+#include "../include/cacheconfig.h"
+#include "../include/utils.h"
 
 CacheConfig::CacheConfig(uint32_t size, uint32_t block_size, uint32_t associativity)
 : _size(size), _block_size(block_size), _associativity(associativity) {
